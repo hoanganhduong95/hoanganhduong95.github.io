@@ -1,0 +1,30 @@
+
+div.image {
+    margin: 5px;
+    float: left;
+}
+
+div.image img {
+    width: 200px;
+    height: 250px;
+}
+
+div.desc {
+    text-align: center;
+}
+
+div.desc a {
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: gray;
+}
+
+div.ten a{
+    text-decoration: none;
+}
