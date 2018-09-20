@@ -1,0 +1,89 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(anh.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
+}
+
+.wrap {
+    max-width: 100%;
+    position: relative;
+}
+
+
+@keyframes move1 {
+    0% {left: 0px}
+    100% {left: 1000px ;}
+}
+
+@keyframes move2 {
+    0% {right: 0px;}
+    100% {right: 150px;}
+}
+
+
+@keyframes anh3 {
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(360deg);}
+    50% {transform: rotate(360deg);}
+    100% {transform: rotate(360deg);}
+}
+
+@keyframes anh5 {
+    0% {transform: rotate(0deg) scale(1);}
+    10% {transform: rotate(10deg) scale(1.1);}
+    20% {transform: rotate(0deg) scale(1);}
+    30% {transform: rotate(-10deg) scale(0.9);}
+    40% {transform: rotate(0deg) scale(1);}
+    50% {transform: rotate(10deg) scale(1.1);}
+    60% {transform: rotate(0deg) scale(1);}
+    70% {transform: rotate(-10deg) scale(0.9);}
+    80% {transform: rotate(0deg) scale(1);}
+    90% {transform: rotate(10deg) scale(1.1);}
+    100% {transform: rotate(0deg) scale(1);}
+}
+
+
+
+.top img {
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#anh2 {
+    position: absolute;
+    top: 150px;
+    animation: move1 10s infinite normal ease-out;
+}
+
+#anh3 {
+    position: absolute;
+    top: 400px;
+    left: 30px;
+    animation: anh5 13s ease infinite;
+}
+
+#anh4 {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    z-index: 1;
+    animation: move2 10s infinite normal ease-out;
+}
+
+#anh5 {
+    position: absolute;
+    top: 300px;
+    right: 40px;
+    animation: anh5 11s ease infinite;
+}
+
