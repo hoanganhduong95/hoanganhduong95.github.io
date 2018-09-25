@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top  {
+    width: 100%;
+    height: 20px;
+    background-color: red;
+}
+
+.wrap {
+    max-width: 1000px;
+    height: auto;
+    margin: auto;
+}
+
+.line1 {
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+}
+
+.box1 {
+    width: 49%;
+    height: 100%;
+    float: left;
+}
+
+.box2 {
+    width: 49%;
+    height: 100%;
+    float: right;
+}
+
+.line2 {
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+}
+
+.box3 {
+    width: 49%;
+    height: 100%;
+    float: left;
+}
+
+.box3-1 {
+    width: 49%;
+    height: 100%;
+    float: left;
+}
+
+.box3-2 {
+    width: 49%;
+    height: 100%;
+    float: right;
+}
+
+.minibox3-1 {
+    width: 100%;
+    height: 50%;
+    padding-bottom: 4px;
+}
+
+.minibox3-1-1 {
+    width: 100%;
+    height: 100%
+}
+
+.minibox3-2 {
+    width: 100%;
+    height: 50%;
+    padding-top: 4px;
+}
+
+.minibox3-2-1 {
+    width: 100%;
+    height: 100%;
+}
+
+
+.box4 {
+    width: 49%;
+    height: 100%;
+    float: right;
+}
+
+.box4-1 {
+    width: 49%;
+    height: 100%;
+    float: left;
+}
+
+.box4-2 {
+    width: 49%;
+    height: 100%;
+    float: right;
+}
+
+.minibox4-1 {
+    width: 100%;
+    height: 50%;
+    padding-bottom: 4px;
+}
+
+.minibox4-2 {
+    width: 100%;
+    height: 50%;
+    padding-top: 4px;
+}
+
+.minibox4-1-1 {
+    width: 100%;
+    height: 100%;
+}
+
+.minibox4-2-1 {
+    width: 100%;
+    height: 100%;
+}
+
+.line3 {
+    margin-top: 20px;
+    width: 100%;
+    height: 20px;
+}
+
+.box5 {
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.line4 {
+    margin-top: 20px;
+    width: 100%;
+    height: 150px;
+}
+
+.box6 {
+    width: 20%;
+    height: 100%;
+    float: left;
+    padding-right: 10px;
+}
+
+.box6-1 {
+    width: 100%;
+    height: 100%;
+}
+
+.box7 {
+    width: 30%;
+    height: 100%;
+    float: left;
+    padding-right: 10px;
+}
+
+.box7-1 {
+    width: 100%;
+    height: 100%;
+}
+
+.box8 {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.box8-1 {
+    width: 100%;
+    height: 100%;
+}
+
+.line5 {
+    width: 100%;
+    height: 1100px;
+    margin-top: 20px;
+}
+
+.box9 {
+    width: 33.33%;
+    height: 1000px;
+    float: left;
+    padding-right: 20px;
+}
+
+.box9-1 {
+    width: 100%;
+    height: 100%
+}
+
+.box9-1-1 {
+    width: 100%;
+    height: 33%;
+    margin-bottom: 10px;
+}
+
+.box9-1-11 {
+    width: 100%;
+    height: 100%;
+}
+
+.box9-1-2 {
+    width: 100%;
+    height: 33%;
+    margin-bottom: 10px;
+}
+
+.box9-1-21 {
+    width: 100%;
+    height: 100%;
+}
+
+
+.box9-1-3 {
+    width: 100%;
+    height: 33%;
+    margin-bottom: 10px;
+}
+
+.box9-1-31 {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.box10 {
+    width: 33.33%;
+    height: 900px;
+    float: left;
+    padding-right: 10px;
+}
+
+.box10-1 {
+    width: 100%;
+    height: 30%;
+    padding-bottom: 10px
+}
+
+.box10-1-1 {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.box10-2 {
+    width: 100%;
+    height: 70%;
+}
+
+.box10-2-1 {
+    width: 100%;
+    height: 100%;
+}
+
+.box11 {
+    width: 33.33%;
+    height: 1100px;
+    float: right;
+    padding-left: 10px;
+}
+
+.box11-1 {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.box11-1-1 {
+    width: 100%;
+    height: 20%;
+    margin-bottom: 10px;
+}
+
+.box11-1-11 {
+    width: 100%;
+    height: 100%;
+}
+
+.box11-1-2 {
+    width: 100%;
+    height: 30%;
+    margin-bottom: 10px;
+}
+
+.box11-1-21 {
+    width: 100%;
+    height: 100%;
+}
+
+
+.box11-1-3 {
+    width: 100%;
+    height: 50%;
+    margin-bottom: 10px;
+}
+
+.box11-1-31 {
+    width: 100%;
+    height: 100%;
+}
+
+
+.line6 {
+    margin-top: 100px;
+    width: 1000px;
+    height: 150px;
+}
+
+.box12 {
+    width: 16.66%;
+    height: 100%;
+    float: left;
+}
+
+.box13 {
+    width: 16.66%;
+    height: 100%;
+    float: left;
+}
+
+.box14 {
+    width: 16.66%;
+    height: 100%;
+    float: left;
+}
+
+.box15 {
+    width: 16.66%;
+    height: 100%;
+    float: left;
+}
+
+.box16 {
+    width: 16.66%;
+    height: 100%;
+    float: left;
+}
+
+.box17 {
+    width: 16.66%;
+    height: 100%;
+    float: left;
+}
+
+.line7 {
+    width: 1000px;
+    height: 150px;
+}
+
+.box18 {
+    width: 33.33%;
+    height: 100%;
+    float: left;
+    padding: 0px 70px 0px 70px;
+}
+
+.box18-1 {
+    width: 100%;
+    height: 100%;
+}
+
+.box19 {
+    width: 33.33%;
+    height: 100%;
+    float: left;
+    padding: 0px 70px 0px 70px;
+}
+
+.box19-1 {
+    width: 100%;
+    height: 100%;
+}
+
+.box20 {
+    width: 33.33%;
+    height: 100%;
+    float: left;
+    padding: 0px 70px 0px 70px;
+}
+
+.box20-1 {
+    width: 100%;
+    height: 100%;
+}
