@@ -9,6 +9,9 @@
 }
 
 
+
+
+
  body {
     font-family: 'oswald',Helvetica,Arial,sans-serif;
     overflow: auto;
@@ -41,6 +44,51 @@ a:hover {
 }
 
 
+
+/*  back to top button */
+#button {
+    display: inline-block;
+    background-color: #404040;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: background-color .3s,
+        opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+#button i {
+    font-size: 24px;
+    padding-top: 7px;;
+    color: #fff;
+}
+
+#button:hover {
+    cursor: pointer;
+    background-color: #333;
+}
+
+#button:active {
+    background-color: #555;
+}
+
+#button.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+@media (max-width: 768px) {
+    #button {
+        display: none;
+    }
+}
 
 /* navbar */
 
@@ -359,3 +407,81 @@ footer {
     color:#999;
 }
 
+
+
+/* About ========================== */
+
+.about-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #0a0a0a;
+    letter-spacing: 14px;
+    margin-bottom: 20px;
+}
+
+.about-desc {
+    font-size: 15px;
+    line-height: 30px;
+    color: #535353;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Offer  */
+
+.offer {
+    background-color: #f8f8f8;
+}
+
+.about-icon {
+    font-size: 62px;
+    color: #ab8e69;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.about-title1 {
+    font-size: 11px;
+    line-height: 34px;
+    font-weight: 600;
+    color: #0a0a0a;
+    font-style: normal;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+}
+
+.about-desc1 {
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: normal;
+    color: #535353;
+}
+
+.about-number {
+    font-size: 56px;
+    line-height: 56px;
+    font-weight: 900;
+    color: #ab8e69;
+    margin-bottom: 25px;
+}
+
+.about-title3 {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #0a0a0a;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.about-desc {
+    font-size: 13px;
+    line-height: 26px;
+    color: #535353;
+}
+
+.about-blog {
+    margin-top: -70px;
+    margin-bottom: 100px;
+}
